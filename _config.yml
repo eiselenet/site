@@ -2,7 +2,7 @@
 title: Developer Advocates
 email: Markus@eisele.net
 description: The Advocacy Site
-baseurl: "/developer-advocates" 
+baseurl: "/site" 
 
 # Use same GitHub style syntax highlighting that Octopress enables by default
 markdown: redcarpet
