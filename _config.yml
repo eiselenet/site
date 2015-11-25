@@ -1,0 +1,23 @@
+# Site settings
+title: Developer Advocates
+email: Markus@eisele.net
+description: The Advocacy Site
+baseurl: "/developer-advocates" 
+
+# Use same GitHub style syntax highlighting that Octopress enables by default
+markdown: redcarpet
+
+# Maintain permalinks in migration of posts from Octopress
+permalink: /:title/
+
+# Add support for AsciiDoc posts using Asciidoctor
+gems:
+  - jekyll-asciidoc
+
+asciidoctor:
+  attributes:
+    - icons=font
+    - hardbreaks!
+    - source-highlighter=coderay
+
+exclude: ['README.adoc', 'Gemfile.lock', 'Gemfile', '*.sh']
